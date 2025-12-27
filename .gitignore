@@ -1,0 +1,9 @@
+# Ignore dataset files
+*.p
+
+# Ignore notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore IDE files
+.idea/
+__pycache__/
