@@ -1,4 +1,4 @@
-\#🚦🚸⛔ Traffic Signs Recognition System
+**🚸⛔ Traffic Signs Recognition System**
 
 
 
@@ -8,51 +8,51 @@ Group 8 Project
 
 
 
-\## Team Members
+**Team Members**
 
 
 
-Chibuike Macnelson – Team Lead
+• Chibuike Macnelson – Team Lead
 
 
 
-Amuzat Habeeb
+• Amuzat Habeeb
 
 
 
-Ejele Ngozi
+• Ejele Ngozi
 
 
 
-Sani Alamin Nazifi
+• Sani Alamin Nazifi
 
 
 
-Eluchie Vivian
+• Eluchie Vivian
 
 
 
-Joseph Victor Osita
+• Joseph Victor Osita
 
 
 
-Ekuma Chidinma
+• Ekuma Chidinma
 
 
 
-Edon Annabella
+• Edon Annabella
 
 
 
-Idowu Favour
+• Idowu Favour
 
 
 
-Amadi Emmanuel
+• Amadi Emmanuel
 
 
 
-\## Overview
+**Overview**
 
 
 
@@ -66,23 +66,23 @@ The project covers:
 
 
 
-Data preprocessing
+• Data preprocessing
 
 
 
-CNN model training
+• CNN model training
 
 
 
-Model evaluation
+• Model evaluation
 
 
 
-Deployment using a Streamlit web application
+• Deployment using a Streamlit web application
 
 
 
-\## Goal
+**Goal**
 
 
 
@@ -90,7 +90,7 @@ To design and deploy a deep learning model that can accurately recognize and cla
 
 
 
-\## Statement of the Problem
+**Statement of the Problem**
 
 
 
@@ -110,31 +110,31 @@ There is a need for an automated system that can reliably recognize traffic sign
 
 
 
-\## Objectives
+**Objectives**
 
 
 
-Load and preprocess traffic sign image data
+• Load and preprocess traffic sign image data
 
 
 
-Build a Convolutional Neural Network (CNN)
+• Build a Convolutional Neural Network (CNN)
 
 
 
-Train and validate the model effectively
+• Train and validate the model effectively
 
 
 
-Evaluate performance using test data
+• Evaluate performance using test data
 
 
 
-Deploy the trained model using a simple web interface
+• Deploy the trained model using a simple web interface
 
 
 
-\## Project Scope
+**Project Scope**
 
 
 
@@ -142,15 +142,15 @@ Included:
 
 
 
-Traffic sign classification using images
+• Traffic sign classification using images
 
 
 
-Model training and evaluation
+• Model training and evaluation
 
 
 
-Web-based UI for predictions
+• Web-based UI for predictions
 
 
 
@@ -158,15 +158,15 @@ Excluded:
 
 
 
-Real-time video detection
+• Real-time video detection
 
 
 
-Edge-device deployment (e.g., Raspberry Pi)
+• Edge-device deployment (e.g., Raspberry Pi)
 
 
 
-\## Methodology
+**Methodology**
 
 
 
@@ -174,51 +174,51 @@ The project was implemented in six phases:
 
 
 
-Data Loading \& Preprocessing
+• Data Loading \& Preprocessing
 
 
 
-Loaded .p files (train, validation, test)
+    • Loaded .p files (train, validation, test)
 
 
 
-Normalized image pixel values
+     •Normalized image pixel values
 
 
 
-Model Building
+• Model Building
 
 
 
-Built a CNN using TensorFlow \& Keras
+    • Built a CNN using TensorFlow \& Keras
 
 
 
-Used convolution, pooling, dropout, and dense layers
+    • Used convolution, pooling, dropout, and dense layers
 
 
 
-Model Training
+• Model Training
 
 
 
-Trained for 20 epochs
+    • Trained for 20 epochs
 
 
 
-Used validation data to monitor performance
+    • Used validation data to monitor performance
 
 
 
-Model Evaluation \& Tuning
+• Model Evaluation \& Tuning
 
 
 
-Evaluated validation accuracy and loss
+    • Evaluated validation accuracy and loss
 
 
 
-Generated confusion matrices
+    • Generated confusion matrices
 
 
 
@@ -226,79 +226,79 @@ Test Evaluation
 
 
 
-Tested on unseen data
+    • Tested on unseen data
 
 
 
-Achieved high test accuracy (~96%)
+    • Achieved high test accuracy (~96%)
 
 
 
-UI Integration (Streamlit)
+• UI Integration (Streamlit)
 
 
 
-Built a web app to upload images
+    • Built a web app to upload images
 
 
 
-Displayed predictions and confidence scores
+    • Displayed predictions and confidence scores
 
 
 
-\## Tools \& Technologies
+**Tools \& Technologies**
 
 
 
-Python
+• Python
 
 
 
-TensorFlow / Keras
+• TensorFlow / Keras
 
 
 
-NumPy, Pandas
+• NumPy, Pandas
 
 
 
-Matplotlib \& Seaborn
+• Matplotlib \& Seaborn
 
 
 
-OpenCV \& PIL
+• OpenCV \& PIL
 
 
 
-Google Colab
+• Google Colab
 
 
 
-Streamlit
+• Streamlit
 
 
 
-\## Results
+**Results**
 
 
 
-Validation Accuracy: ~97%
+• Validation Accuracy: ~97%
 
 
 
-Test Accuracy: ~96%
+• Test Accuracy: ~96%
 
 
 
-Strong performance across most traffic sign classes
+• Strong performance across most traffic sign classes
 
 
 
-Accurate predictions on unseen images
+• Accurate predictions on unseen images
 
 
 
-\## Discussion
+**Discussion**
 
 
 
@@ -312,7 +312,7 @@ The Streamlit app successfully demonstrates real-world usage by allowing users t
 
 
 
-\## Deep Learning Approach
+**Deep Learning Approach**
 
 
 
@@ -322,7 +322,7 @@ The model automatically learns important visual features such as edges, shapes, 
 
 
 
-\## Algorithms
+**Algorithm**
 
 
 
@@ -330,67 +330,29 @@ Convolutional Neural Network (CNN)
 
 
 
-Adam Optimizer
+
+
+**Evaluation Metrics**
 
 
 
-Sparse Categorical Cross-Entropy Loss
+• Accuracy
 
 
 
-\## Evaluation Metrics
+• Loss
 
 
 
-Accuracy
+• Confusion Matrix
 
 
 
-Loss
+• Precision, Recall, F1-Score
 
 
 
-Confusion Matrix
-
-
-
-Precision, Recall, F1-Score
-
-
-
-\## Conclusion
-
-
-
-The Traffic Sign Recognition System was successfully developed and deployed.
-
-The model achieved high accuracy and was integrated into a user-friendly web application using Streamlit.
-
-
-
-This project demonstrates the practical use of deep learning in real-world computer vision problems.
-
-
-
-\## References
-
-
-
-German Traffic Sign Recognition Benchmark (GTSRB)
-
-
-
-TensorFlow \& Keras Documentation
-
-
-
-Streamlit Documentation
-
-
-
-
-
-\##  Streamlit Web Application
+**Streamlit Web Application**
 
 
 
@@ -398,21 +360,57 @@ Below are screenshots from the Streamlit-based web application developed for tra
 
 
 
-\###  Streamlit Home Page
+**Streamlit Home Page**
 
-!\[Streamlit Home Page](screenshots/Streamlit\_app\_home\_page.png)
-
-
-
-\###  Sample Prediction 1
-
-!\[Sample Input 1 Prediction](screenshots/Sample\_Input1\_with\_predicted\_output.png)
+![Streamlit Home Page](screenshot/Streamlit_app_home_page.jpeg)
 
 
 
-\###  Sample Prediction 2
+**Sample Prediction 1**
 
-!\[Sample Input 2 Prediction](screenshots/Sample\_Input2\_with\_predicted\_output.png)
+![Sample Input 1 Prediction](screenshot/Sample_Input1_with_predicted_output.jpeg)
+
+
+
+**Sample Prediction 2**
+
+![Sample Input 2 Prediction](screenshot/Sample_Input2_with_predicted_output.jpeg)
+
+
+
+
+
+
+
+**Conclusion**
+
+
+
+• The Traffic Sign Recognition System was successfully developed and deployed.
+
+• The model achieved high accuracy and was integrated into a user-friendly web application using Streamlit.
+
+
+
+• This project demonstrates the practical use of deep learning in real-world computer vision problems.
+
+
+
+**References**
+
+
+
+• German Traffic Sign Recognition Benchmark (GTSRB)
+
+
+
+• TensorFlow \& Keras Documentation
+
+
+
+
+
+
 
 
 
